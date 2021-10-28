@@ -1,0 +1,50 @@
+Q1)when we go for length & length().
+1. The length variable is applicable to an array but not for string objects.
+1.The length() method is applicable for string objects but not for arrays.
+2. length can be used for int[], double[], String[] to know the length of the arrays.
+2. length() can be used for String, StringBuilder, etc.  String class related Objects to know the length of the String
+3. To directly access a field member of an array we can use .length;
+3. length() invokes a method to access a field member.
+4.ex.
+public class Length {
+	 public static void main(String[] args)  {
+	        int[] array = new int[4];
+	        System.out.println("The size of the array is "+ array.length);
+	        String str = "Vijay";
+	        System.out.println("The size of the String is "
+	                           + str.length());
+	    }
+
+}
+Q2)Multiple Inheritance
+Multiple Inheritance in Java: 
+Defining derived class from numerous base classes is known as ‘Multiple Inheritance’. 
+In this case, there is more than one superclass, and there can be one or more subclasses. 
+Multiple inheritances are available in object-oriented programming with C++, but it is not available in Java. 
+Java developers want to use multiple inheritances in some cases.
+ Fortunately, Java developers have interface concepts expecting the developers to achieve multiple inheritances by using multiple interfaces. 
+Ex: class Myclass implements interface1, interface2,…. 
+ex. 
+class A10{  
+void msg(){
+	System.out.println("Hello");
+	}  
+}  
+class B{  
+void msg(){
+	System.out.println("Welcome");
+	}  
+}  
+class C extends A,B {
+   public static void main(String args[]){  
+   C obj=new C();  
+   obj.msg();
+}  
+}  
+Q3)Hybrid Inheritance
+Hybrid Inheritance in Java: 
+Hybrid Inheritance in Java is a combination of Inheritances. 
+In this type of Inheritance, more than one kind of inheritance is observed.
+For example, if we have class A and class B that extend class C and then there is another class D that extends class A, then this type of Inheritance is known as Hybrid Inheritance.
+Why? Because we clearly observe that there is two kinds of inheritance here- Hierarchical and Single Inheritance.
+In the diagram shown below, we see another example of Hybrid Inheritance.
