@@ -1,0 +1,15 @@
+* getClass() method:
+1)getClass() is the method of Object class.
+2)This method returns the runtime class of this object.
+3)The class object which is returned is the object that is locked by static synchronized method of the represented class.
+4)So, you can see that getClass() method put a restriction that objects are only equal to other objects of the same class, the same runtime type, 
+   but instanceof operator returns true for subclass as well.
+5)If you use the getClass() in the equals() method then it will only return true if the other object is also of the same class or same 
+  runtime type, it will return false even if its object of subclass and follow the Liskov substitution principle. 
+6)The biggest disadvantage of using getClass() in the equals() method is the fact that you get two objects that appear to be equal 
+  (because they are equal on all the fields) but they are not equal because they are of different classes.
+
+7)Syntax:  Following is the declaration for java.lang.Object.getClass() method
+       
+       public final Class getClass()
+
