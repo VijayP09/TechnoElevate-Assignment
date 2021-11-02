@@ -1,0 +1,69 @@
+Types of Exception:-
+1).IOException
+
+FileNotFoundException
+
+SocketException
+
+ConnectException
+
+UnknownHostException
+2).Runtime Exception
+
+
+ArithmeticException
+
+ArrayStoreException
+
+ClassCastException
+
+ConcurrentModificationException
+
+EnumConstant Not Present Exception
+
+IllegalArgumentException
+
+illegalThreadStateException
+
+NumberFormatException
+
+IllegalMonitorStateException
+
+
+3).ReflectiveOperationException
+
+ClassNotFoundException
+
+IllegalAccessException
+
+InstantiationException
+
+InvocationTargetException
+
+NoSuchField Exception
+
+NoSuchMethodException.
+
+
+4).CloneNotSupportedException
+
+
+5).InterruptedException
+
+exception
+
+IllegalStateException
+
+IndexOutOfBoundsExc eption
+
+1.ArrayindexOutOfBounds Exception
+
+2.StringindexOutOfBoundsException
+
+NegativeArraySize Exception
+
+NullPointerException
+
+SecurityException TypeNotPresentException
+
+Unsupported OperationException

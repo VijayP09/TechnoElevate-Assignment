@@ -1,0 +1,25 @@
+Errors:-Some exceptions are very serious because they jeopardize a program's ability to continue execution. For example, a program tries to allocate memory from the JVM but there isn't enough free memory to satisfy the request. Another serious situation occurs when a program tries to load a classfile via a Class.forName() method call, but the classfile is corrupt. This kind of exception is known as an error. You should never try to handle errors yourself because the JVM might not be able to recover from it.
+
+
+ Exception class:-
+An exception (or exceptional event) is a problem that arises during the execution of a program. When an Exception occurs the normal flow of the program is disrupted and the program/Application terminates abnormally, which is not recommended, therefore, these exceptions are to be handled.
+
+An exception can occur for many different reasons. Following are some scenarios where an exception occurs.
+
+A user has entered an invalid data.
+
+A file that needs to be opened cannot be found.
+
+A network connection has been lost in the middle of communications or the JVM has run out of memory.
+
+Some of these exceptions are caused by user error, others by programmer error, and others by physical resources that have failed in some manner.
+
+Based on these, we have three categories of Exceptions. You need to understand them to know how exception handling works in Java.
+
+Checked exceptions − A checked exception is an exception that is checked (notified) by the compiler at compilation-time, these are also called as compile time exceptions. These exceptions cannot simply be ignored, the programmer should take care of (handle) these exceptions.
+
+Unchecked exceptions − An unchecked exception is an exception that occurs at the time of execution. These are also called as Runtime Exceptions. These include programming bugs, such as logic errors or improper use of an API. Runtime exceptions are ignored at the time of compilation.
+
+
+THROWABLE:-
+The Throwable class is the superclass of all errors and exceptions in the Java language. Only objects that are instances of this class (or one of its subclasses) are thrown by the Java Virtual Machine or can be thrown by the Java throw statement. Similarly, only this class or one of its subclasses can be the argument type in a catch clause. For the purposes of compile-time checking of exceptions, Throwable and any subclass of Throwable that is not also a subclass of either RuntimeException or Error are regarded as checked exceptions.
