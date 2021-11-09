@@ -1,0 +1,13 @@
+Stach Interface:
+-A stack is a data structure holding several items. As seen in Figure 4-1, we can think of the items in a stack as being arranged  
+  vertically. When a new item is added, it is added to the top of the stack.
+-This is called pushing an item onto the stack. We can pop the stack to extract the topmost item. We can also peek at the top
+  item or check if the stack is empty.
+-A stack changes as various operations are performed on it. Peeking at the final (rightmost) stack would return B, but not 
+ alter the stack. A real stack would start out empty, but we included a few items here to make the example more interesting.
+-Since the most recently pushed item is always on top of the stack (and hence available for popping), a stack is said to follow 
+  a last-in, first-out or LIFO policy. One consequence is that if we push a sequence of ten items onto a stack and then pop the 
+  stack ten times, the items are returned in reverse order.
+- The standard analogy for a stack is a spring-loaded stack of plates found in a cafeteria: we can push a new plate on top or we
+  can pop off the top plate, but we can't (directly) get at the plates underneath. 
+-We can formalize the stack abstract data type in the Stack interface. There is more than one way to implement this interface.

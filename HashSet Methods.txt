@@ -1,0 +1,29 @@
+HashSet Method:
+-Java HashSet class is used to create a collection that uses a hash table for storage. It inherits the AbstractSet class and 
+ implements Set interface.
+-The important points about Java HashSet class are:
+
+-HashSet stores the elements by using a mechanism called hashing.
+-HashSet contains unique elements only.
+-HashSet allows null value.
+-HashSet class is non synchronized.
+-HashSet doesn't maintain the insertion order. Here, elements are inserted on the basis of their hashcode.
+-HashSet is the best approach for search operations
+1)add(E e)
+   It is used to add the specified element to this set if it is not already present.
+2)clear()
+  It is used to remove all of the elements from the set.
+3)clone()
+  It is used to return a shallow copy of this HashSet instance: the elements themselves are not cloned.
+4)contains(Object o)
+  It is used to return true if this set contains the specified element.
+5)isEmpty()
+   It is used to return true if this set contains no elements.
+6)iterator()
+  It is used to return an iterator over the elements in this set.
+7)remove(Object o)
+  It is used to remove the specified element from this set if it is present.
+8)size()
+  It is used to return the number of elements in the set.
+9)spliterator()
+  It is used to create a late-binding and fail-fast Spliterator over the elements in the set.

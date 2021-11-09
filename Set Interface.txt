@@ -1,0 +1,74 @@
+Set Interface:
+The set is an interface available in the java.util package. 
+The set interface extends the Collection interface.
+An unordered collection or list in which duplicates are not allowed is referred to as a collection interface.
+The set interface is used to create the mathematical set. 
+The set interface use collection interface's methods to avoid the insertion of the same elements. SortedSet and NavigableSet are two interfaces that extend the set implementation.
+There are several methods available in the set interface which we can use to perform a certain operation on our sets. These methods are as follows:
+1) add()
+The add() method insert a new value to the set. The method returns true and false depending on the presence of the insertion element. It returns false if the element is already present in the set and returns true if it is not present in the set.
+Syntax:
+boolean add(type element).  
+2) addAll()
+The addAll() method appends all the elements of the specified collection to the set.
+Syntax:
+   boolean addAll(Collection data)  
+3) clear()
+The method removes all the elements from the set. It doesn't delete the reference of the set. It only deletes the elements of the set.
+Syntax:
+     void clear()  
+4) contains()
+The contains() method is used to know the presence of an element in the set. Its return value is true or false depending on the presence of the element.
+Syntax:
+        boolean contains(Object element)  
+5) containsAll()
+The method is used to check whether all the elements of the collection are available in the existing set or not. It returns true if all the elements of the collection are present in the set and returns false even if one of the elements is missing in the existing set.
+Syntax:
+public boolean containsAll(Collection data) 
+6) hashCode()
+The method is used to derive the hash code value for the current instance of the set. It returns hash code value of integer type.
+Syntax:
+   public int hashCode()  
+7) isEmpty()
+The isEmpty() method is used to identify the emptiness of the set . It returns true if the set is empty and returns false if the set is not empty.
+Syntax:
+boolean isEmpty()  
+8) iterator()
+The iterator() method is used to find the iterator of the set. The iterator is used to get the element one by one.
+Syntax:
+Iterator iterate_value = set1.iterator();  
+9) remove()
+The method is used to remove a specified element from the Set. Its return value depends on the availability of the element. It returns true if the element is available in the set and returns false if it is unavailable in the set.
+Syntax:
+boolean remove(Object O)  
+10) removeAll()
+The method removes all the elements of the existing set from the specified collection.
+Syntax:
+  public boolean removeAll(Collection data) 
+11) retainAll()
+The method retains all the elements from the set specified in the given collection.
+Syntax:
+public boolean retainAll(Collection data) 
+12) size()
+The method returns the size of the set.
+Syntax:
+int size()  
+13) removeAll()
+The method is used to create an array with the same elements of the set.
+Syntax:
+Object[] toArray()  
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+
