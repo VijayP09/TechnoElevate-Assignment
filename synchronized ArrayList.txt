@@ -1,0 +1,15 @@
+synchronized ArrayList in Java:
+-Implementation of arrayList is not synchronized is by default. It means if a thread modifies it structurally 
+  and multiple threads access it concurrently, it must be synchronized externally. 
+-Structural modification means addition or deletion of element(s) from the list or explicitly resizes the backing array.
+-Changing the value of existing element is not structural modification.
+-There are two way to create Synchronized Arraylist.
+ 1) Collections.synchronizedList() method.
+ 2) Using CopyOnWriteArrayList.
+-To do serial access, it is critical that all access to the backing list is accomplished through returned list. It 
+ is imperative that user manually synchronize on the returned list when iterating over it.
+-A thread-safe variant of ArrayList in which all mutative operations (e.g. add, set, remove..) are implemented by 
+ creating a separate copy of underlying array. It achieves thread-safety by creating a separate copy of List which is a is different 
+  way than vector or other collections use to provide thread-safety.
+-We can use Collections.synchronizedList(List<T>) method to synchronize collections in java. The synchronizedList(List<T>) method is 
+ used to return a synchronized (thread-safe) list backed by the specified list.
